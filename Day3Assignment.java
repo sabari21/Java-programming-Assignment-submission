@@ -11,16 +11,16 @@ class Cab {
     }
     //parameterized constructor
     public Cab(int fare) {
-        this.fare = fare;   //"this" gives reference of current object being used
+        this.fare = fare;   
         //ob.fare - fare
     }
 
-    //copy constructor 
+   
 }
 class Cab2 extends Cab
 {
-	public Cab2(Cab ob1) {         //ob1 = ob
-        fare = ob1.fare;   //ob2.fare = ob.fare
+	public Cab2(Cab ob1) {       
+        fare = ob1.fare;   
     }
 }
 
